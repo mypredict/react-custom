@@ -1,5 +1,4 @@
 import React from 'react';
-import './AutoFitImg.scss';
 
 /*
   cover: 不失真, 填充满内容框, 隐藏掉了一部分内容
@@ -22,6 +21,8 @@ function AutoFitImg(props: Props) {
     <img
       className="auto-fit-img-page"
       style={{
+        width: '100%',
+        height: '100%',
         ...props.style,
         objectFit:
         props.objectFit,

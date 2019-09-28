@@ -1,7 +1,6 @@
 import React from 'react';
 import { useKeyDown } from './custom_hooks/index';
-import AutoFitImg from './components/AutoFitImg/AutoFitImg';
-import Tips from './components/Tips/Tips';
+import { AutoFitImg, Tips } from './components/index';
 import './Test1.scss';
 
 interface Props {
